@@ -22,7 +22,7 @@ DTval<-paste(table$Date,table$Time)
 table$DTVALS<- strptime(DTval, format = "%d/%m/%Y %H:%M:%S")
 
 # all step to this point are to initalize the data so that the plots are consistant
-win.graph(200,200)
+win.graph(480,480)
 
 plot(table$DTVALS, table$Sub_metering_1, type = "l",xlab = "Daytime", ylab = "Energy sub metering")
 

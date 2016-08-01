@@ -24,7 +24,7 @@ table$DTVALS<- strptime(DTval, format = "%d/%m/%Y %H:%M:%S")
 # all step to this point are to initalize the data so that the plots are consistant
 
 
-win.graph(200,200)
+win.graph(480,480)
 par(mfcol = c(2,2))
 
 #plot1

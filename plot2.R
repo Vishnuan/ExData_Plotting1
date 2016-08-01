@@ -25,6 +25,6 @@ table$DTVALS<- strptime(DTval, format = "%d/%m/%Y %H:%M:%S")
 
 
 
-win.graph(200,200)
+win.graph(480,480)
 
 plot(table$DTVALS, table$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kW)", main = "")

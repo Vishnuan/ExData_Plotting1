@@ -25,7 +25,7 @@ table$DTVALS<- strptime(DTval, format = "%d/%m/%Y %H:%M:%S")
 
 
 
-win.graph(200,200)
+win.graph(480,480)
 
 hist(table$Global_active_power, xlab = "Global Active Power (kW)", main = "Global Active Power", ylim = c(0,1200), col= "RED")
 
